@@ -16,6 +16,7 @@ export default function Footer() {
           <p className="mt-5 font-urbanist font-[400] text-sm md:text-xs lg:text-sm text-[#A5A5A5]">
             The operating system for regenerative communities.
           </p>
+
           <div className="flex mt-5">
             <Link href="https://www.linkedin.com/company/proofofpresenceprotocol/">
               <Image src={LinkedIn} alt="" className="mr-3 cursor-pointer" />
