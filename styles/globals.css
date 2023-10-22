@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.line
+{
+    line-height: 22px !important;
+}
+.lines
+{
+    line-height: 40px !important;
+}
+.global-para
+{
+    line-height: 22px !important;
+}
+
+@media screen and (min-device-width: 2000px) and (max-device-width: 2200px) {
+.global-txt
+{
+    font-size: 30px !important;
+}
+.global-para{
+    font-size: 10px !important;
+}
+.titles
+{
+    font-size: 20px !important;
+}
+.paras
+{
+    font-size: 13px !important;
+}
+}
+
+@media screen and (min-device-width: 2201px) and (max-device-width: 2490px) {
+    .global-txt
+    {
+        font-size: 30px !important;
+    }
+    .global-para{
+        font-size: 12px !important;
+    }
+    .titles
+{
+    font-size: 20px !important;
+}
+.paras
+{
+    font-size: 13px !important;
+}
+    }
+
+
+@media screen and (min-device-width: 1536px) and (max-device-width: 1999px) {
+
+    .main{
+        width: 80% !important;
+    }
+.grid{
+    width: 80% !important;
+}
+.global-txt
+{
+    font-size: 35px !important;
+}
+.global-para
+{
+    font-size: 18px !important;
+    line-height: 25px !important;
+}
+}
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 398px) {
+.title-banner
+{
+    font-size: 28px !important;
+}
+.des-banner
+{
+    font-size: 15px !important;
+}
+.banner-btn
+{
+ 
+    font-size: 15px !important;
+}
+}
+
+@media screen and (max-device-width: 360px)  {
+    .village
+    {
+        font-size: 25px !important;
+    }
+}
+
+@media screen and (max-device-width: 320px)  {
+.global-txt
+{
+    font-size: 25px !important;
+}
+.global-para
+{
+    font-size: 15px !important;
+}
+
+
+}    
