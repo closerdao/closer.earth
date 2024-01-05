@@ -38,6 +38,8 @@ export default function Footer() {
             <Image src={Email} alt="" className="cursor-pointer" />
             <Link
               href="mailto:team@closer.earth"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
               className="self-center ml-2 font-urbanist font-[400] text-sm md:text-xs lg:text-sm text-[#A5A5A5] cursor-pointer"
             >
               team@closer.earth
@@ -48,6 +50,8 @@ export default function Footer() {
             <Image src={Location} alt="" className="cursor-pointer" />
             <Link
               href="https://t.me/+rdZvSdohTzs0Njlh"
+              target="_blank"
+              rel="nofollow noopener noreferrer"
               className="self-center ml-2 font-urbanist font-[400] text-sm md:text-xs lg:text-sm text-[#A5A5A5] cursor-pointer"
             >
               Join our community

@@ -12,7 +12,7 @@ const types = [
   {
     img: Tick,
     title: "Native community token",
-    para: "Proof of Presence is our game-changing feature that tracks and rewards your active participation within a community. The more time you spend, the more Presence you collect, and the more influence you have in decision-making. It's your passport to a richer, more connected community experience.",
+    para: "By helping land based communities to ussue a Native Token, we enable them to provide access rights to members. These tokens can be either earned through active participation and contributions or purchased directly.",
   },
   {
     img: Tick,
@@ -22,7 +22,7 @@ const types = [
   {
     img: Tick,
     title: "Proof of Sweat",
-    para: "Proof of Presence is our game-changing feature that tracks and rewards your active participation within a community. The more time you spend, the more Presence you collect, and the more influence you have in decision-making. It's your passport to a richer, more connected community experience.",
+    para: "Proof of Sweat is an innovative approach that rewards members for their active contributions to a project. By quantifying the work and effort put in, it grants members greater influence and recognition within the community. This system ensures that the more you contribute, the more impact you have, fostering a more engaged and productive environment.",
   },
 ];
 
@@ -49,19 +49,20 @@ export default function Global() {
       </div>
 
       <div className="bg-gradient-to-b from-[#67F8C0] to-[#3F91DD] py-20 md:py-40">
-        <div className="grid md:grid-cols-3 gap-5 w-[90%] xl:w-[80%] 2xl:w-[40%] mx-auto">
-          {/* mapping */}
-          {types.map((item) => (
-            <div>
-              <Image src={item.img} alt="" />
-              <p className="titles mt-2 font-urbanist font-[700] text-xl md:text-sm lg:text-xl text-[#171717]">
-                {item.title}
-              </p>
-              <p className="paras mt-2 font-urbanist font-[400] text-sm md:text-xs lg:text-sm text-[#171717]">
-                {item.para}
-              </p>
-            </div>
-          ))}
+        <div className=" w-[90%] xl:w-[80%] 2xl:w-[40%] mx-auto">
+          <div className="grid md:grid-cols-3 gap-6 w-[80%]">
+            {types.map((item) => (
+              <div key={item.img}>
+                <Image src={item.img} alt="" />
+                <p className="titles mt-2 font-urbanist font-[700] text-xl md:text-sm lg:text-xl text-[#171717]">
+                  {item.title}
+                </p>
+                <p className="paras mt-2 font-urbanist font-[400] text-sm md:text-xs lg:text-sm text-[#171717]">
+                  {item.para}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 

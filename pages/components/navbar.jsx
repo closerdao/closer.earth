@@ -44,9 +44,11 @@ export default function Navbar() {
                 Innovators
               </p>
             </AnchorLink>
-            <p className="self-center cursor-pointer font-urbanist font-[300] text-sm xl:text-md text-white hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-t from-[#67F8C0] to-[#3F91DD]">
-              Investment
-            </p>
+            <AnchorLink href="#invest" className="self-center">
+              <p className="self-center cursor-pointer font-urbanist font-[300] text-sm xl:text-md text-white hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-t from-[#67F8C0] to-[#3F91DD]">
+                Investment
+              </p>
+            </AnchorLink>
 
             <Link
               href="mailto:team@closer.earth"
@@ -173,9 +175,15 @@ export default function Navbar() {
                           </p>
                         </AnchorLink>
 
-                        <p className="text-center cursor-pointer  mt-5 font-[400] font-urbanist text-[16px] text-white  ">
-                          Investment
-                        </p>
+                        <AnchorLink href="#invest">
+                          <p
+                            onClick={() => setOpen(false)}
+                            className="text-center cursor-pointer  mt-5 font-[400] font-urbanist text-[16px] text-white  "
+                          >
+                            Investment
+                          </p>
+                        </AnchorLink>
+
                         <Link
                           href="mailto:team@closer.earth"
                           target="_blank"

@@ -103,12 +103,12 @@ export default function Meet() {
         </div>
       </div>
 
-      <div className="bg-[#1C1C1C] py-20">
+      <div className="bg-[#1C1C1C] py-20" id="invest">
         <div className="bg-[#171717] w-[80%] xl:w-[70%] 2xl:w-[40%] mx-auto py-20 px-5 md:px-20 rounded-2xl">
           <p className="lines font-urbanist font-[700] text-lg md:text-xl lg:text-2xl xl:text-3xl text-white">
-            {`Driven by regeneration? Whether you're looking to fund impact drive
+            {`Driven by regeneration? Whether you're looking to fund impact driven
             technology solutions or pioneering new communities, we need you.
-            Connect with Closer. Shape the future, pragmatically.`}
+            Connect with Closer and shape a future where technology serves nature.`}
           </p>
 
           <Link
