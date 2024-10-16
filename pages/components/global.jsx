@@ -12,7 +12,7 @@ const types = [
   {
     img: Tick,
     title: "Native community token",
-    para: "By helping land based communities to ussue a Native Token, we enable them to provide access rights to members. These tokens can be either earned through active participation and contributions or purchased directly.",
+    para: "By helping land based communities to issue a Native Token, we enable them to provide access rights to members. These tokens can be either earned through active participation and contributions or purchased directly.",
   },
   {
     img: Tick,
@@ -30,9 +30,9 @@ export default function Global() {
   return (
     <>
       <div className="bg-[#171717] py-20">
-        <div className="grid w-[90%] 2xl:w-[40%] mx-auto md:w-full md:grid-cols-2">
+        <div className="grid w-[90%] 2xl:w-[1100px] mx-auto md:w-full md:grid-cols-2">
           <div className="md:self-center lg:self-start">
-            <Image src={Globals} alt="" className="w-[90%] " />
+            <Image src={Globals} alt="Globus" className="w-[90%] " />
           </div>
           <div className="self-center mt-10 md:mt-0">
             <p className="global-txt font-urbanist font-[700] text-3xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-2xl  text-white">
@@ -49,15 +49,15 @@ export default function Global() {
       </div>
 
       <div className="bg-gradient-to-b from-[#67F8C0] to-[#3F91DD] py-20 md:py-40">
-        <div className=" w-[90%] xl:w-[80%] 2xl:w-[40%] mx-auto">
-          <div className="grid md:grid-cols-3 gap-6 w-[80%]">
+        <div className=" w-[90%] xl:w-[80%] 2xl:w-[900px] mx-auto">
+          <div className="grid md:grid-cols-3 gap-6 w-[100%]">
             {types.map((item) => (
-              <div key={item.img}>
-                <Image src={item.img} alt="" />
-                <p className="titles mt-2 font-urbanist font-[700] text-xl md:text-sm lg:text-xl text-[#171717]">
+              <div key={item.title}>
+                <Image src={item.img} alt={item.title} className="mx-auto" />
+                <p className="text-center titles mt-2 font-urbanist font-[700] text-xl md:text-sm lg:text-xl text-[#171717]">
                   {item.title}
                 </p>
-                <p className="paras mt-2 font-urbanist font-[400] text-sm md:text-xs lg:text-sm text-[#171717]">
+                <p className="text-center paras mt-2 font-urbanist font-[400] text-sm md:text-xs lg:text-sm text-[#171717]">
                   {item.para}
                 </p>
               </div>
@@ -67,14 +67,14 @@ export default function Global() {
       </div>
 
       <div className="bg-[#222] py-20">
-        <div className="main w-[90%] xl:w-[80%] 2xl:w-[40%] mx-auto">
-          <Image src={Map} alt="" className="hidden md:block" />
-          <Image src={MobMap} alt="" className="block md:hidden" />
+        <div className="main w-[90%] xl:w-[80%] 2xl:w-[900px] mx-auto">
+          <Image src={Map} alt="Map" className="hidden md:block" />
+          <Image src={MobMap} alt="Map" className="block md:hidden" />
         </div>
       </div>
 
       <div className=" bg-gradient-to-b from-[#67F8C0] to-[#3F91DD] py-20">
-        <div className="main w-[90%] xl:w-[80%] 2xl:w-[40%] mx-auto">
+        <div className="main w-[90%] xl:w-[80%] 2xl:w-[900px] mx-auto">
           <p className=" hidden md:block font-urbanist font-[700]  text-3xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-2xl text-[#171717] text-center">
             At Closer, we envision a future where <br /> regenerative villages
             emerge as the guardians <br /> of ecological transformation.
@@ -100,12 +100,12 @@ export default function Global() {
 
           <Image
             src={Digital}
-            alt=""
+            alt="Image"
             className="mt-5 rounded-3xl hidden md:block"
           />
           <Image
             src={MobDigital}
-            alt=""
+            alt="Image"
             className="mt-5 rounded-3xl block md:hidden"
           />
         </div>

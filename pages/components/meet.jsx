@@ -45,20 +45,21 @@ export default function Meet() {
         className="bg-gradient-to-b from-[#67F8C0] to-[#3F91DD] py-20"
       >
         <div>
-          <div className="w-[90%] xl:w-[60%] 2xl:w-[40%] mx-auto text-center">
+          <div className="w-[90%] xl:w-[60%] 2xl:w-[900px] mx-auto text-center">
             <p className="global-txt font-urbanist font-[700] text-3xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-2xl  text-[#171717]">
               Meet the Innovator
             </p>
-            <p className="block global-para mt-3 font-urbanist font-[400] text-sm md:text-xs lg:text-sm text-[#171717] ">
+            <p className="block global-para mt-3 font-urbanist font-[400] text-sm md:text-xs lg:text-sm text-[#171717] w-[80%] mx-auto">
               Our diverse team of passionate individuals brings a wealth of experience in technology, sustainability, and community-building, united by a shared vision to drive positive change through Closer.
             </p>
           </div>
         </div>
 
-        <div className="grid md:grid-cols-3 w-[80%] xl:w-[70%] 2xl:w-[40%] mx-auto  gap-10 mt-10 pb-10 border-b-[1px] border-[#171717]">
+        <div className="grid md:grid-cols-3 w-[80%] xl:w-[70%] 2xl:w-[900px] mx-auto  gap-10 mt-20 pb-10 border-b-[1px] border-[#171717]">
           {inno.map((item, index) => (
             <div key={index} className="text-center">
               <Image
+                alt="Member image"
                 src={item.img}
                 className="mx-auto w-[30%] lg:w-[25%] xl:w-[20%]"
               />
@@ -72,30 +73,30 @@ export default function Meet() {
           ))}
         </div>
 
-        <div className="w-[80%]  xl:w-[60%] 2xl:w-[40%] mx-auto md:flex justify-between mt-10 ">
+        <div className="w-[80%]  xl:w-[60%] 2xl:w-[900px] mx-auto md:flex justify-between mt-10 ">
           <div className="flex ">
-            <Image src={Hire} alt="" />
+            <Image src={Hire} alt="Question mark" />
             <p className="ml-3 font-urbanist font-[500] text-xl md:text-sm lg:text-xl text-[#171717]">
               UI Designer
             </p>
           </div>
 
           <div className="flex mt-5 md:mt-0">
-            <Image src={Hire} alt="" />
+            <Image src={Hire} alt="Question mark" />
             <p className="ml-3 font-urbanist font-[500] text-xl md:text-sm lg:text-xl text-[#171717]">
               Fullstack dev
             </p>
           </div>
 
           <div className="flex mt-5 md:mt-0">
-            <Image src={Hire} alt="" />
+            <Image src={Hire} alt="Question mark" />
             <p className="ml-3 font-urbanist font-[500] text-xl md:text-sm lg:text-xl text-[#171717]">
               Devops
             </p>
           </div>
 
           <div className="flex mt-5 md:mt-0">
-            <Image src={Hire} alt="" />
+            <Image src={Hire} alt="Question mark" />
             <p className="ml-3 font-urbanist font-[500] text-xl md:text-sm lg:text-xl text-[#171717]">
               Head of sales
             </p>
@@ -104,7 +105,7 @@ export default function Meet() {
       </div>
 
       <div className="bg-[#1C1C1C] py-20" id="invest">
-        <div className="bg-[#171717] w-[80%] xl:w-[70%] 2xl:w-[40%] mx-auto py-20 px-5 md:px-20 rounded-2xl">
+        <div className="bg-[#171717] w-[80%] xl:w-[70%] 2xl:w-[1000px] mx-auto py-20 px-5 md:px-20 rounded-2xl">
           <p className="lines font-urbanist font-[700] text-lg md:text-xl lg:text-2xl xl:text-3xl text-white">
             {`Driven by regeneration? Whether you're looking to fund impact driven
             technology solutions or pioneering new communities, we need you.

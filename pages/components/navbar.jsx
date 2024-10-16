@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="bg-[#171717] py-4">
         <div className="main grid grid-cols-3 md:grid-cols-2 2xl:grid-cols-3 w-[90%] xl:w-[80%] 2xl:w-[1100px] mx-auto">
           <div className="flex 2xl:col-span-1">
-            <Image src={Logo} alt="" />
+            <Image src={Logo} alt="Closer logo" />
             <p className="hidden md:block self-center ml-4 font-urbanist font-[700] text-[30px] text-white">
               Closer
             </p>
