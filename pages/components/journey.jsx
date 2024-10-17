@@ -64,7 +64,7 @@ export default function Journey() {
           <p className="global-txt font-urbanist font-[700] text-3xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-2xl text-white text-center">
             Our Journey Ahead
           </p>
-          <p className="mx-auto line global-para mt-3 font-urbanist font-[400] text-sm md:text-xs lg:text-sm text-[#A5A5A5] md:w-[8f0%] text-center">
+          <p className="mx-auto line global-para mt-3 font-urbanist font-[400] text-sm md:text-xs lg:text-sm text-[#A5A5A5] md:w-[80%] text-center">
             In the coming years, Closer is poised to revolutionize how regenerative communities access and manage shared resources, enabling a global network of sustainable, cooperative living spaces.
           </p>
         </div>
