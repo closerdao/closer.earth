@@ -97,13 +97,13 @@ export default function Journey() {
                 </div>
               }
 
-              {data.subheadings.map(data => (
-                <div key={data.name} className="pt-5">
+              {data.subheadings.map(sectionData => (
+                <div key={sectionData.name} className="pt-5">
                   <p className=" font-urbanist font-[600] text-white text-xl">
-                    {data.name}
+                    {sectionData.name}
                   </p>
 
-                  {data.points.map(point => (
+                  {sectionData.points.map(point => (
                     <div key={point} className="flex mt-3">
                       <Image width="12" src={BluTick} alt="Tick" />
                       <p className="self-center ml-3 font-urbanist font-[600] text-white">
